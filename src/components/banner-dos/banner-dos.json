@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_banner_dos_banner_dos",
+  "info": {
+    "displayName": "bannerDos"
+  },
+  "options": {},
+  "attributes": {
+    "textBannerUno": {
+      "type": "richtext"
+    },
+    "imageBanner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "textImage": {
+      "type": "string"
+    },
+    "textBannerDos": {
+      "type": "richtext"
+    }
+  }
+}

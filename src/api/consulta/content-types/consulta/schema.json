@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "consultas",
+  "info": {
+    "singularName": "consulta",
+    "pluralName": "consultas",
+    "displayName": "Consulta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "textoBanner": {
+      "type": "richtext"
+    },
+    "imagenBanner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.item"
+    }
+  }
+}

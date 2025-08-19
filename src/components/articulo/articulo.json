@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_articulo_articulos",
+  "info": {
+    "displayName": "articulo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fecha": {
+      "type": "string"
+    },
+    "textoUno": {
+      "type": "richtext"
+    },
+    "imagenUno": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "textoDos": {
+      "type": "richtext"
+    },
+    "tituloTres": {
+      "type": "string"
+    },
+    "textoTres": {
+      "type": "richtext"
+    },
+    "imagenTres": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tituloCuatro": {
+      "type": "string"
+    },
+    "textoCuatro": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_stepper_steppers",
+  "info": {
+    "displayName": "stepper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleItem": {
+      "type": "string"
+    },
+    "titleIcono": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "item": {
+      "displayName": "item",
+      "type": "component",
+      "repeatable": true,
+      "component": "items.item"
+    },
+    "iconostepper": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "textSubtitle": {
+      "type": "string"
+    }
+  }
+}

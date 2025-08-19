@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "nosotros",
+  "info": {
+    "singularName": "nosotro",
+    "pluralName": "nosotros",
+    "displayName": "SobreNosotros",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerDos": {
+      "displayName": "bannerDos",
+      "type": "component",
+      "repeatable": false,
+      "component": "banner-dos.banner-dos"
+    },
+    "tituloUno": {
+      "type": "string"
+    },
+    "textoUno": {
+      "type": "richtext"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "cloud": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section"
+    },
+    "textFooterCard": {
+      "type": "richtext"
+    }
+  }
+}

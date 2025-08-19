@@ -1,0 +1,88 @@
+{
+  "kind": "singleType",
+  "collectionName": "consumidors",
+  "info": {
+    "singularName": "consumidor",
+    "pluralName": "consumidors",
+    "displayName": "Consumidor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner"
+    },
+    "tituloUno": {
+      "type": "string"
+    },
+    "tarjetas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "cloud": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.section"
+    },
+    "tituloDos": {
+      "type": "string"
+    },
+    "textoDos": {
+      "type": "richtext"
+    },
+    "stepper": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stepper.stepper"
+    },
+    "tituloTres": {
+      "type": "string"
+    },
+    "textoTres": {
+      "type": "richtext"
+    },
+    "form": {
+      "displayName": "form",
+      "type": "component",
+      "repeatable": false,
+      "component": "form.form"
+    },
+    "cloudDos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section"
+    },
+    "tituloCuatro": {
+      "type": "string"
+    },
+    "accordion": {
+      "displayName": "accordion",
+      "type": "component",
+      "repeatable": true,
+      "component": "accordion.accordion"
+    },
+    "textoAccordionBottom": {
+      "type": "string"
+    },
+    "iconStepperOnly": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "secondClass": {
+      "type": "boolean"
+    }
+  }
+}

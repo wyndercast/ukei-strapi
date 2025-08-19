@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_testimonio_testimonios",
+  "info": {
+    "displayName": "testimonio"
+  },
+  "options": {},
+  "attributes": {
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "cargo": {
+      "type": "string"
+    },
+    "testimonio": {
+      "type": "richtext"
+    }
+  }
+}

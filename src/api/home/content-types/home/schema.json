@@ -1,0 +1,91 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerHome": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "tituloContent": {
+      "type": "string"
+    },
+    "parrafo": {
+      "type": "richtext"
+    },
+    "tarjeta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "subtituloDos": {
+      "type": "string"
+    },
+    "titluloSegundo": {
+      "type": "string"
+    },
+    "segundoContenido": {
+      "type": "richtext"
+    },
+    "tarjetaSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section"
+    },
+    "tituloTres": {
+      "type": "string"
+    },
+    "contenidoTres": {
+      "type": "richtext"
+    },
+    "tarjetasTres": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "textoDesc": {
+      "type": "richtext"
+    },
+    "sectionCuatro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section"
+    },
+    "carrusel": {
+      "displayName": "carrusel",
+      "type": "component",
+      "repeatable": false,
+      "component": "carrusel.carrusel"
+    },
+    "stepper": {
+      "displayName": "stepper",
+      "type": "component",
+      "repeatable": true,
+      "component": "stepper.stepper"
+    },
+    "titleStepper": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_items_items",
+  "info": {
+    "displayName": "item"
+  },
+  "options": {},
+  "attributes": {
+    "icono": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "itemname": {
+      "type": "string"
+    }
+  }
+}

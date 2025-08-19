@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonios",
+  "info": {
+    "singularName": "testimonio",
+    "pluralName": "testimonios",
+    "displayName": "testimonio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "testimonio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonio.testimonio"
+    }
+  }
+}
