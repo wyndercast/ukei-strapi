@@ -1,7 +1,14 @@
 module.exports = [
   'strapi::errors',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['https://ukeiweb.netlify.app'], // <-- tu dominio de Netlify
+      methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+      headers: '*',
+    },
+  },
   'strapi::security',
-  'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
@@ -9,11 +16,4 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-  {
-    name: 'strapi::cors',
-    config: {
-      enabled: true,
-      origin: ["*"]
-    }
-  },
 ];
