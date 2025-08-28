@@ -3,7 +3,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['https://ukeiweb.netlify.app'], // <-- tu dominio de Netlify
+      origin: ['*'], // <-- tu dominio de Netlify
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
       headers: '*',
     },
