@@ -3,6 +3,9 @@ const path = require('path');
 module.exports = ({ env }) => {
   const client = env('DATABASE_CLIENT', 'sqlite');
 
+  const filename = path.join(process.cwd(), env('DATABASE_FILENAME', 'database/data.db'));
+  console.log('Strapi está usando la base de datos en:', filename);
+
   const connections = {
     mysql: {
       connection: {
