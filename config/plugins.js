@@ -14,4 +14,8 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  // Activar el plugin Import/Export
+  'import-export-entries': {
+    enabled: true,
+  },
 });
